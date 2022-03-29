@@ -1,5 +1,4 @@
 import React from "react";
-import coverImage from "../../assets/cover/cover-image-green.jpeg";
 
 // create react component
 const About = () => {
@@ -13,7 +12,6 @@ const About = () => {
         <section className="my-5">
             <h1 id="about">Who am I?</h1>
             <p>I am Kenia</p>
-            <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
         </section>
 
     );
