@@ -8,8 +8,8 @@ main {
   --primary: #8c54ff;
   --secondary: #F3A847;
   --tertiary: #B12704;
-  --light: #fafafa;
-  --dark: #254441;
+  --light: #43AA8B;
+  --dark: #FFFFFF;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -36,8 +36,7 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
-
+  font-family: Copperplate, Papyrus, fantasy;
 }
 
 h1,
@@ -46,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: Copperplate, Papyrus, fantasy;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -122,6 +121,7 @@ button[disabled] {
 
 img {
   max-width: 100%;
+  border-radius: 50%;
 }
 
 span[role="img"] {
@@ -150,10 +150,20 @@ li {
   list-style: none;
 }
 
+nav {
+background-color: #CBF3F0;
+width: 100%;
+}
+
 nav a:hover {
   text-decoration: none;
 }
 
+.name {
+  font-size: xx-large;
+  color: #03071E;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 nav  li {
   cursor: pointer;
 }

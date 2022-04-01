@@ -1,6 +1,7 @@
 import React from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers"; 
 
+
 function Nav (props) {
     // // useEffect hook to re-render when the value updates
     // useEffect(() => {
@@ -15,13 +16,6 @@ function Nav (props) {
 
     return (
         <header className="flex-row px-1">
-
-            <h2>
-                {/* add attribute specific for testing to the <a> element */}
-                <a data-testid="link" href="/">
-                    <span role="img" aria-label="camera">{" "}📸</span>{" "}Oh Snap!
-                </a>
-            </h2>
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
@@ -31,6 +25,7 @@ function Nav (props) {
                     <li className="mx-2">
                         <span>Portfolio</span>
                     </li>
+                    <span className="name">Kenia Y.L.G.</span>
                     <li className="mx-2">
                         <span>Contact</span>
                     </li>

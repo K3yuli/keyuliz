@@ -1,16 +1,19 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import About from './components/About';
+import Header from './components/Header';
 import Nav from './components/Nav';
+import Projects from './components/Projects';
 
 // 
 function App() {
   return (
     <div>
+ 
       <Nav></Nav>
       <main>
-      <About></About>
+      {/* <Projects></Projects> */}
+        <Header></Header>
       </main>
     </div>
   );
